@@ -1,0 +1,19 @@
+<div style="padding: 10px;">
+
+<h1><%= @post.title %></h1>
+
+<p style="color: green"><%= notice %></p>
+
+<div style="width: 50%">
+  <p>
+    <%= simple_format @post.content %>
+  </p>
+</div>
+
+<hr />
+
+<div>
+  <%= link_to "Edit this post", edit_post_path(@post) %> |
+  <%= link_to "Back to posts", posts_path %> |
+  <%= link_to "Destroy this post", @post, method: :delete %>
+</div>

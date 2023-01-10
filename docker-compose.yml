@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+
+  # blog-app-prod:
+  #   image: blog-app-prod
+  #   environment:
+  #     DB_USER: root
+  #     DB_PASSWORD: password
+  #     DB_NAME: blog
+  #     DB_HOST: blog-db
+  #     RAILS_ENV: production
+  #     RAILS_LOG_TO_STDOUT: '1'
+  #     RAILS_SERVE_STATIC_FILES: '1'      
+  #   depends_on:
+  #     - blog-db  
+  #   ports:
+  #     - 3102:3000
+
+  blog-app:
+    build: 
+      context: .
+      target: develop
+    image: blog-app-dev
+    volumes:
+      - .:/app:rw  
+    environment:
+      DB_USER: root
+      DB_PASSWORD: password
+      DB_NAME: blog
+      DB_HOST: blog-db
+    depends_on:
+      - blog-db  
+    ports:
+      - 3101:3000
+
+  blog-db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: blog

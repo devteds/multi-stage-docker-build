@@ -1,0 +1,9 @@
+<div id="<%= dom_id post %>" style="background-color: <%= cycle('#F8F9F9', '#EBF5FB') %>; padding: 10px 20px; margin-top: 2px;">
+  <p>    
+    <%= link_to post.title, post %>
+  </p>
+
+  <p>
+    <%= simple_format post.content.truncate(200) %>
+  </p>
+</div>
