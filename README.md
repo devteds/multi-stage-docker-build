@@ -1,6 +1,6 @@
 # Multi-Stage Docker Build: How to Build Production-Ready Docker Image
 
-Devteds [Episode #10](https://devteds.com/episodes/multi-stage-docker-build)
+Here is the link to the [Short video course](https://devteds.com/episodes/multi-stage-docker-build)
 
 This is for Developers and DevOps engineers that have some basic knowledge of creating Dockerfile and building docker images, wanting to learn creating multi-stage Dockerfile to build production-ready docker images. In this free short course, we will step through,
 
@@ -12,10 +12,9 @@ This is for Developers and DevOps engineers that have some basic knowledge of cr
 - Extend to add more stages and build final, deployable and prod-ready image
 - Using the deployable image, run container locally to test the prod-ready image
 
+[Course video link](https://youtu.be/EkOCLmvwEhc)
 
-[Episode video link](https://youtu.be/EkOCLmvwEhc)
-
-[![Episode Video Link](./doc/youtube-thumbnail-multi-stage-docker-rails-play.png)](https://devteds.com/multi-stage-docker-build/)
+[![Course Video Link](./doc/youtube-thumbnail-multi-stage-docker-rails-play.png)](https://devteds.com/multi-stage-docker-build/)
 
 Visit https://devteds.com to watch all the videos and courses on DevOps and Cloud courses.
 
@@ -24,7 +23,7 @@ Visit https://devteds.com to watch all the videos and courses on DevOps and Clou
 If you're want to start deploying your containers to Kubernetes, especially on AWS EKS, [check this course on Kubernetes](https://courses.devteds.com/kubernetes-get-started) that walkthrough creating Kubernetes cluster on AWS EKS using Terraform and deploying multiple related containers applications to Kubernetes and more. https://courses.devteds.com/kubernetes-get-started 
 
 
-## Terminal Window Logs
+## Terminal Window Log
 
 ### Code
 
