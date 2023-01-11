@@ -1,8 +1,8 @@
 # Multi-Stage Docker Build: How to Build Production-Ready Docker Image
 
-Here is the link to the [Short video course](https://devteds.com/episodes/multi-stage-docker-build)
+Source code of [short course](https://devteds.com/multi-stage-docker-build)
 
-This is for Developers and DevOps engineers that have some basic knowledge of creating Dockerfile and building docker images, wanting to learn creating multi-stage Dockerfile to build production-ready docker images. In this free short course, we will step through,
+The course is for Developers and DevOps engineers that have some basic knowledge of creating Dockerfile and building docker images, wanting to learn creating multi-stage Dockerfile to build production-ready docker images. In this free short course, we will step through,
 
 - Dockerizing an exisitng application (a Rails application)
 - Not too much into the Rails but give a quick walkthrough for Non-Rails developers
