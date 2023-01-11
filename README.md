@@ -1,8 +1,12 @@
 # Multi-Stage Docker Build: How to Build Production-Ready Docker Image
 
-Source code of [short course](https://devteds.com/multi-stage-docker-build)
+Source code is for the [short course](https://devteds.com/multi-stage-docker-build)
 
-The course is for Developers and DevOps engineers that have some basic knowledge of creating Dockerfile and building docker images, wanting to learn creating multi-stage Dockerfile to build production-ready docker images. In this free short course, we will step through,
+## Announcement: Course on Kubernetes
+
+> If you're want to start deploying your containers to Kubernetes, especially on AWS EKS, [check this course on Kubernetes](https://courses.devteds.com/kubernetes-get-started) that walkthrough creating Kubernetes cluster on AWS EKS using Terraform and deploying multiple related containers applications to Kubernetes and more. https://courses.devteds.com/kubernetes-get-started 
+
+This short course, the [Multi-Stage Docker Build](https://devteds.com/multi-stage-docker-build), is for Developers and DevOps engineers that have some basic knowledge of creating Dockerfile and building docker images, wanting to learn creating multi-stage Dockerfile to build production-ready docker images. In this free short course, we will step through,
 
 - Dockerizing an exisitng application (a Rails application)
 - Not too much into the Rails but give a quick walkthrough for Non-Rails developers
@@ -17,10 +21,6 @@ The course is for Developers and DevOps engineers that have some basic knowledge
 [![Course Video Link](./doc/youtube-thumbnail-multi-stage-docker-rails-play.png)](https://devteds.com/multi-stage-docker-build/)
 
 Visit https://devteds.com to watch all the videos and courses on DevOps and Cloud courses.
-
-## Announcement: Course on Kubernetes
-
-If you're want to start deploying your containers to Kubernetes, especially on AWS EKS, [check this course on Kubernetes](https://courses.devteds.com/kubernetes-get-started) that walkthrough creating Kubernetes cluster on AWS EKS using Terraform and deploying multiple related containers applications to Kubernetes and more. https://courses.devteds.com/kubernetes-get-started 
 
 
 ## Terminal Window Log
