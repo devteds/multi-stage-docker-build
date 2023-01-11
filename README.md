@@ -6,6 +6,8 @@ Source code is for the [short course](https://devteds.com/multi-stage-docker-bui
 
 > If you're want to start deploying your containers to Kubernetes, especially on AWS EKS, [check this course on Kubernetes](https://courses.devteds.com/kubernetes-get-started) that walkthrough creating Kubernetes cluster on AWS EKS using Terraform and deploying multiple related containers applications to Kubernetes and more. https://courses.devteds.com/kubernetes-get-started 
 
+---
+
 This short course, the [Multi-Stage Docker Build](https://devteds.com/multi-stage-docker-build), is for Developers and DevOps engineers that have some basic knowledge of creating Dockerfile and building docker images, wanting to learn creating multi-stage Dockerfile to build production-ready docker images. In this free short course, we will step through,
 
 - Dockerizing an exisitng application (a Rails application)
