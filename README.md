@@ -1,10 +1,10 @@
 # Multi-Stage Docker Build: How to Build Production-Ready Docker Image
 
-Source code is for the [short course](https://devteds.com/multi-stage-docker-build)
+The source code is for the [short course](https://devteds.com/multi-stage-docker-build)
 
 ## Announcement: Course on Kubernetes
 
-> If you're want to start deploying your containers to Kubernetes, especially on AWS EKS, [check this course on Kubernetes](https://courses.devteds.com/kubernetes-get-started) that walkthrough creating Kubernetes cluster on AWS EKS using Terraform and deploying multiple related containers applications to Kubernetes and more. https://courses.devteds.com/kubernetes-get-started 
+> If you want to start deploying your containers to Kubernetes, especially on AWS EKS, [check this course on Kubernetes](https://courses.devteds.com/kubernetes-get-started) that walkthrough creating Kubernetes cluster on AWS EKS using Terraform and deploying multiple related containers applications to Kubernetes and more. https://courses.devteds.com/kubernetes-get-started 
 
 ---
 
